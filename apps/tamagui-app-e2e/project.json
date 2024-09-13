@@ -1,0 +1,10 @@
+{
+  "name": "tamagui-app-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/tamagui-app-e2e/src",
+  "projectType": "application",
+  "tags": [],
+  "implicitDependencies": ["tamagui-app"],
+  "// targets": "to see all targets run: nx show project tamagui-app-e2e --web",
+  "targets": {}
+}

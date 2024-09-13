@@ -1,0 +1,9 @@
+{
+  "name": "tamagui-app",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/tamagui-app/src",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project tamagui-app --web",
+  "targets": {}
+}

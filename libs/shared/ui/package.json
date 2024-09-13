@@ -1,0 +1,16 @@
+{
+  "name": "shared-ui",
+  "version": "0.0.1",
+  "main": "src/index.ts",
+  "private": true,
+  "dependencies": {
+    "@nx/expo": "*"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "scripts": {
+    "generate-themes": "npx tamagui generate-themes ./src/lib/theme/theme-builder.ts ./src/lib/theme/theme.ts"
+  }
+}

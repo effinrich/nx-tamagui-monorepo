@@ -1,0 +1,44 @@
+{
+  "migrations": [
+    {
+      "cli": "nx",
+      "version": "19.6.0-beta.0",
+      "description": "Update workspace to use Storybook v8",
+      "implementation": "./src/migrations/update-19-6-0/update-sb-8",
+      "package": "@nx/storybook",
+      "name": "update-19-6-0-add-nx-packages"
+    },
+    {
+      "version": "19.7.0-beta.4",
+      "cli": "nx",
+      "description": "Remove eas-build-pre-install script from app's package.json",
+      "factory": "./src/migrations/update-19-7-0/remove-eas-pre-install",
+      "package": "@nx/expo",
+      "name": "update-19-7-0-remove-eas-pre-install"
+    },
+    {
+      "cli": "nx",
+      "version": "19.6.0-beta.0",
+      "description": "Use serve-static or preview for webServerCommand.",
+      "implementation": "./src/migrations/update-19-6-0/use-serve-static-preview-for-command",
+      "package": "@nx/playwright",
+      "name": "19-6-0-use-serve-static-preview-for-command"
+    },
+    {
+      "cli": "nx",
+      "version": "19.6.0-beta.1",
+      "description": "Add inferred ciTargetNames to targetDefaults with dependsOn to ensure dependent application builds are scheduled before atomized tasks.",
+      "implementation": "./src/migrations/update-19-6-0/add-e2e-ci-target-defaults",
+      "package": "@nx/playwright",
+      "name": "update-19-6-0-add-e2e-ci-target-defaults"
+    },
+    {
+      "cli": "nx",
+      "version": "19.6.0-beta.1",
+      "description": "Rename upgrade target name to fix casing.",
+      "implementation": "./src/migrations/update-19-6-0/rename-upgrade-target-name",
+      "package": "@nx/react-native",
+      "name": "update-19-6-0-rename-upgrade-target-name"
+    }
+  ]
+}
